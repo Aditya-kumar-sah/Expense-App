@@ -5,7 +5,7 @@ const dotenv = require('dotenv')
 const colors = require('colors')
 const connectDb = require('./config/connectDb')
 const useRoute = require('./routes/userRoutes')
-const path = requie('path')
+const path = require('path')
 
 //rest object
 const app = express()
