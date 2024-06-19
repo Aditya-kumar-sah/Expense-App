@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm start\" \"npm run client\" "
+    "build": "npm start --prefix build",
+    "dev": "concurrently \"npm start\" \"npm run build\" "
   },
   "keywords": [],
   "author": "Aditya Kumar Sah",
